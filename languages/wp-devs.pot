@@ -1,0 +1,312 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP "
+"Devs v1.0.0\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"POT-Creation-Date: "
+"2024-04-15 14:22-0400\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Your Team "
+"<translations@example."
+"com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit "
+"3.4.2\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: 404.php:8
+msgid "Page not found."
+msgstr ""
+
+#: 404.php:9
+msgid ""
+"Unfortunately, the page "
+"you tried to reach does "
+"not exist on this site."
+msgstr ""
+
+#: 404.php:13
+msgid ""
+"How about doing a search?"
+msgstr ""
+
+#: 404.php:19
+#: front-page.php:50
+msgid "Latest Posts"
+msgstr ""
+
+#: archive.php:20
+msgid "<< Newer posts"
+msgstr ""
+
+#: archive.php:23
+msgid "Older posts >>"
+msgstr ""
+
+#: archive.php:28
+#: front-page.php:86
+#: general-template.php:26
+#: index.php:30
+msgid ""
+"Nothing yet to be "
+"displayed!"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid ""
+"One thought on &ldquo;"
+"%s&rdquo;"
+msgstr ""
+
+#: comments.php:36
+#, php-format
+msgctxt "comments title"
+msgid ""
+"%1$s thought on &ldquo;"
+"%2$s&rdquo;"
+msgid_plural ""
+"%1$s thoughts on &ldquo;"
+"%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:71
+msgid ""
+"Comments are closed."
+msgstr ""
+
+#: front-page.php:24
+msgid "Popular Categories"
+msgstr ""
+
+#: functions.php:21
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:22
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:57
+msgid "Service 1"
+msgstr ""
+
+#: functions.php:59
+msgid "First Service Area"
+msgstr ""
+
+#: functions.php:68
+msgid "Service 2"
+msgstr ""
+
+#: functions.php:70
+msgid "Second Service Area"
+msgstr ""
+
+#: functions.php:79
+msgid "Service 3"
+msgstr ""
+
+#: functions.php:81
+msgid "Third Service Area"
+msgstr ""
+
+#: inc/customizer.php:9
+#: inc/customizer.php:10
+msgid "Copyright Settings"
+msgstr ""
+
+#: inc/customizer.php:18
+msgid ""
+"Copyright X - All Rights "
+"Reserved"
+msgstr ""
+
+#: inc/customizer.php:26
+msgid ""
+"Copyright Information"
+msgstr ""
+
+#: inc/customizer.php:27
+msgid ""
+"Please type your "
+"copyright here"
+msgstr ""
+
+#: inc/customizer.php:36
+msgid "Hero Settings"
+msgstr ""
+
+#: inc/customizer.php:44
+msgid "Please add a title."
+msgstr ""
+
+#: inc/customizer.php:52
+msgid "Hero Title"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid ""
+"Please type your title "
+"here"
+msgstr ""
+
+#: inc/customizer.php:64
+msgid ""
+"Please add a subtitle."
+msgstr ""
+
+#: inc/customizer.php:72
+msgid "Hero Subtitle"
+msgstr ""
+
+#: inc/customizer.php:73
+msgid ""
+"Please type your "
+"subtitle here"
+msgstr ""
+
+#: inc/customizer.php:83
+msgid "Learn More."
+msgstr ""
+
+#: inc/customizer.php:91
+msgid "Hero button text"
+msgstr ""
+
+#: inc/customizer.php:92
+msgid ""
+"Please type your button "
+"text here"
+msgstr ""
+
+#: inc/customizer.php:110
+msgid "Hero button link"
+msgstr ""
+
+#: inc/customizer.php:111
+msgid ""
+"Please type your button "
+"link here"
+msgstr ""
+
+#: inc/customizer.php:130
+msgid "Hero height"
+msgstr ""
+
+#: inc/customizer.php:131
+msgid ""
+"Please type your hero "
+"height"
+msgstr ""
+
+#: inc/customizer.php:151
+msgid "Hero Image"
+msgstr ""
+
+#: inc/customizer.php:162
+msgid "Blog Section"
+msgstr ""
+
+#: inc/customizer.php:178
+msgid "Posts per page"
+msgstr ""
+
+#: inc/customizer.php:179
+msgid ""
+"How many items to "
+"display in the post list?"
+msgstr ""
+
+#: inc/customizer.php:197
+msgid ""
+"Post categories to "
+"include"
+msgstr ""
+
+#: inc/customizer.php:198
+#: inc/customizer.php:217
+msgid ""
+"Comma separated values "
+"or single category ID"
+msgstr ""
+
+#: inc/customizer.php:216
+msgid ""
+"Post categories to "
+"exclude"
+msgstr ""
+
+#: index.php:8
+msgid "Blog"
+msgstr ""
+
+#: index.php:21
+#: parts/content-search.php:7
+#: parts/content-single.php:6
+msgid "Posted in"
+msgstr ""
+
+#: index.php:22
+#: parts/content-latest-news.php:10
+#: parts/content-search.php:9
+#: parts/content-single.php:8
+msgid "Categories"
+msgstr ""
+
+#: index.php:23
+#: parts/content-latest-news.php:14
+#: parts/content-search.php:12
+#: parts/content-single.php:11
+msgid "Tags"
+msgstr ""
+
+#: parts/content-latest-news.php:8
+msgid "by"
+msgstr ""
+
+#: search.php:7
+msgid "Search results for"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search for"
+msgstr ""
