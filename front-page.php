@@ -1,24 +1,6 @@
 <?php get_header(); ?>
 <div id="content" class="site-content">
     <div id="primary" class="content-area">
-        <!-- <main id="main" class="site-main">
-            <?php $hero_title = get_theme_mod('set_hero_title', 'Please enter a title');
-            $hero_subtitle = get_theme_mod('set_hero_subtitle', 'Please enter a subtitle');
-            $hero_button_link = get_theme_mod('set_hero_button_link', '#');
-            $hero_button_text = get_theme_mod('set_hero_button_text', 'Learn More');
-            $hero_height = get_theme_mod('set_hero_height', 800);
-            $hero_background = wp_get_attachment_url(get_theme_mod('set_hero_background')); ?>
-            <section class="hero" style="background-image: url(<?php echo esc_url($hero_background); ?>)">
-                <div class="overlay" style="min-height: <?php echo esc_attr($hero_height); ?>px">
-                    <div class="container">
-                        <div class="hero-items">
-                            <h1><?php echo esc_html($hero_title); ?></h1>
-                            <p><?php echo nl2br(esc_html($hero_subtitle)); ?></p>
-                            <a href="<?php echo esc_url($hero_button_link); ?>"><?php echo esc_html($hero_button_text); ?></a>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
         <section class="services">
             <div class="info-box">
                 <span><?php esc_html_e('We care about', 'mn-signs') ?></span>
@@ -86,53 +68,78 @@
         <div class="gradient-bottom"></div>
         <section class="sliding-images">
             <div class="wrapper">
-                <div class="item item1"> <?php
-                                            if (is_active_sidebar('images-1')) {
-                                                dynamic_sidebar('images-1');
-                                            }
-                                            ?></div>
+                <div class="item item1">
+                    <?php
+                    if (is_active_sidebar('images-1')) {
+                        dynamic_sidebar('images-1');
+                    }
+                    ?></div>
                 <div class="item item2"><img src="" />
-                <?php
-                                            if (is_active_sidebar('images-2')) {
-                                                dynamic_sidebar('images-2');
-                                            }
-                                            ?></div>
+                    <?php
+                    if (is_active_sidebar('images-2')) {
+                        dynamic_sidebar('images-2');
+                    }
+                    ?></div>
                 <div class="item item3"><img src="" />
-                <?php
-                                            if (is_active_sidebar('images-3')) {
-                                                dynamic_sidebar('images-3');
-                                            }
-                                            ?></div>
+                    <?php
+                    if (is_active_sidebar('images-3')) {
+                        dynamic_sidebar('images-3');
+                    }
+                    ?></div>
                 <div class="item item4"><img src="" />
-                <?php
-                                            if (is_active_sidebar('images-4')) {
-                                                dynamic_sidebar('images-4');
-                                            }
-                                            ?></div>
+                    <?php
+                    if (is_active_sidebar('images-4')) {
+                        dynamic_sidebar('images-4');
+                    }
+                    ?></div>
                 <div class="item item5"><img src="" />
-                <?php
-                                            if (is_active_sidebar('images-5')) {
-                                                dynamic_sidebar('images-5');
-                                            }
-                                            ?></div>
+                    <?php
+                    if (is_active_sidebar('images-5')) {
+                        dynamic_sidebar('images-5');
+                    }
+                    ?></div>
                 <div class="item item6"><img src="" />
-                <?php
-                                            if (is_active_sidebar('images-6')) {
-                                                dynamic_sidebar('images-6');
-                                            }
-                                            ?></div>
+                    <?php
+                    if (is_active_sidebar('images-6')) {
+                        dynamic_sidebar('images-6');
+                    }
+                    ?></div>
                 <div class="item item7"><img src="" />
-                <?php
-                                            if (is_active_sidebar('images-7')) {
-                                                dynamic_sidebar('images-7');
-                                            }
-                                            ?></div>
+                    <?php
+                    if (is_active_sidebar('images-7')) {
+                        dynamic_sidebar('images-7');
+                    }
+                    ?></div>
                 <div class="item item8"><img src="" />
-                <?php
-                                            if (is_active_sidebar('images-8')) {
-                                                dynamic_sidebar('images-8');
-                                            }
-                                            ?></div>
+                    <?php
+                    if (is_active_sidebar('images-8')) {
+                        dynamic_sidebar('images-8');
+                    }
+                    ?></div>
+            </div>
+            <a href="/services"><button><?php esc_html_e('Browse Products and Services', 'mn-signs') ?></button></a>
+        </section>
+        <section class="reviews-container">
+            <h2>What customers are saying...</h2>
+            <div class="reviews">
+                <div class="review-card">
+                    <p>Laura</p>
+                    <p>★ ★ ★ ★ ★</p>
+
+                    <p>Mike and Tony are very friendly and easy to work with. They are quick to respond and answer any questions and concerns you have especially when it comes to big, large-scale projects. If there's a mistake they are quick to fix. They really prioritize customer satisfaction. All in all they're super reliable and I'd recommend them to anyone who has any signage needs in the area. Thanks guys!</p>
+                </div>
+                <div class="review-card">
+                    <p>Dale</p>
+                    <p>★ ★ ★ ★ ★</p>
+
+                    <p>I ordered 18 yard signs for businesses sponsoring holes for our Young Life Golf Tournament. Mike and Tony did an outstanding job of taking my order, assisting with the design of the signs, and delivered them ahead of the schedule we had agreed upon. They were professional and very friendly in all aspects of my interaction with them.</p>
+                </div>
+                <div class="review-card">
+                    <p>Peter</p>
+                    <p>★ ★ ★ ★ ★</p>
+
+                    <p>I put a car wrap on for my business Fredericksburg Window Decor last week. I drove away after picking up the vehicle and 10 minutes later a person rolled down the window to ask me for an appointment. All week long people and customers have been commenting on how nice the design and wrap looked. Money well spent and very professional looking! Highly recommend Mike and his team!</p>
+                </div>
             </div>
         </section>
         <section class="home-blog">
