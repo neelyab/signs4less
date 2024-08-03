@@ -1,7 +1,4 @@
 <?php get_header(); ?>
-
-<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
-
         <div id="content" class="site-content">
             <div id="primary" class="content-area">
                 <main id="main" class="site-main">
@@ -16,17 +13,17 @@
                                     endwhile;
                                     wp_reset_postdata() 
                                     ?>
-                                        <div class="wp-boiler-pagination">
+                                        <div class="mn-signs-pagination">
                                             <div class="pages new">
-                                                <?php previous_posts_link( esc_html__("<< Newer posts", 'wp-boiler' )); ?>
+                                                <?php previous_posts_link( esc_html__("<< Newer posts", 'mn-signs' )); ?>
                                             </div>
                                             <div class="pages old">
-                                                <?php next_posts_link(esc_html__( "Older posts >>", 'wp-boiler') ); ?>
+                                                <?php next_posts_link(esc_html__( "Older posts >>", 'mn-signs') ); ?>
                                             </div>
                                         </div>
                                     <?php
                                 else: ?>
-                                    <p><?php esc_html_e('Nothing yet to be displayed!', 'wp-boiler') ?></p>
+                                    <p><?php esc_html_e('Nothing yet to be displayed!', 'mn-signs') ?></p>
                             <?php endif; ?>                                
                         </div>
                         <?php get_sidebar(); ?>

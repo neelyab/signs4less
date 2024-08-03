@@ -4,9 +4,6 @@ Template Name: General Template
 */
 ?>
 <?php get_header(); ?>
-
-<img src="<?php header_image(); ?>" height="<?php echo esc_attr(get_custom_header()->height); ?>" width="<?php echo esc_attr(get_custom_header()->width); ?>" alt="" />
-
         <div id="content" class="site-content">
             <div id="primary" class="content-area">
                 <main id="main" class="site-main">
@@ -24,7 +21,7 @@ Template Name: General Template
                                     endwhile;
                                     wp_reset_postdata();
                                 else: ?>
-                                    <p><?php esc_html_e('Nothing yet to be displayed!', 'wp-boiler'); ?></p>
+                                    <p><?php esc_html_e('Nothing yet to be displayed!', 'mn-signs'); ?></p>
                             <?php endif; ?>                                
                         </div>
                     </div>

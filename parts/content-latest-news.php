@@ -5,13 +5,13 @@
     <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
     <div class="meta-info">
     <p>
-       <?php esc_html_e('by', 'wp-boiler') ?> <span><?php the_author_posts_link(); ?></span> 
+       <?php esc_html_e('by', 'mn-signs') ?> <span><?php the_author_posts_link(); ?></span> 
         <?php if( has_category()): ?>
-            <?php esc_html_e('Categories', 'wp-boiler') ?> 
+            <?php esc_html_e('Categories', 'mn-signs') ?> 
             <span><?php the_category( ' ' ); ?></span>
         <?php endif; ?>
         <?php if( has_tag()): ?>
-            <?php esc_html_e('Tags', 'wp-boiler') ?> <?php the_tags( '', ', ' ); ?>
+            <?php esc_html_e('Tags', 'mn-signs') ?> <?php the_tags( '', ', ' ); ?>
         <?php endif; ?>
     </p>
     <p><span><?php echo esc_html(get_the_date()); ?></p>

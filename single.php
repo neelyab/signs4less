@@ -9,7 +9,7 @@
                 the_post();
                 get_template_part( 'parts/content', 'single' );
                 ?>
-                <div class="wp-boiler-pagination">
+                <div class="mn-signs-pagination">
                     <div class="pages next">
                         <?php next_post_link( '&laquo; %link' ); ?>
                     </div>

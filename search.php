@@ -4,7 +4,7 @@
     <div id="main">
         <div class="container">
 
-        <h1><?php esc_html_e('Search results for', 'wp-boiler')?>: <?php echo get_search_query(); ?></h1>
+        <h1><?php esc_html_e('Search results for', 'mn-signs')?>: <?php echo get_search_query(); ?></h1>
 
             <?php 
 

@@ -6,8 +6,8 @@
  * and the comment form.
  *
  * @package WordPress
- * @subpackage WP Boiler
- * @since WP Boiler 1.0
+ * @subpackage MN Signs
+ * @since MN Signs 1.0
  */
 
 /*
@@ -28,7 +28,7 @@ if ( post_password_required() ) {
 				$comments_number = get_comments_number();
 			if ( '1' === $comments_number ) {
 				/* translators: %s: Post title. */
-				printf( esc_html_x( 'One thought on &ldquo;%s&rdquo;', 'comments title', 'wp-boiler' ), get_the_title() );
+				printf( esc_html_x( 'One thought on &ldquo;%s&rdquo;', 'comments title', 'mn-signs' ), get_the_title() );
 			} else {
 				printf(
 					/* translators: 1: Number of comments, 2: Post title. */
@@ -37,7 +37,7 @@ if ( post_password_required() ) {
 						'%1$s thoughts on &ldquo;%2$s&rdquo;',
 						$comments_number,
 						'comments title',
-						'wp-boiler'
+						'mn-signs'
 					),
 					number_format_i18n( $comments_number ),
 					get_the_title()
@@ -68,7 +68,7 @@ if ( post_password_required() ) {
 		// If comments are closed and there are comments, let's leave a little note, shall we?
 	if ( ! comments_open() && get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) :
 		?>
-	<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'wp-boiler' ); ?></p>
+	<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'mn-signs' ); ?></p>
 	<?php endif; ?>
 
 	<?php

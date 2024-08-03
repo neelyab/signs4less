@@ -1,5 +1,5 @@
 let dropdown = document.querySelector('.menu'), //ul
-submenu = document.querySelector('.sub-menu'), //ul li a
+submenu = document.querySelector('.menu ul'), //ul li a
 buttonClick = document.querySelector('.check-button'), //button
 hamburger = document.querySelector('.menu-icon');
 

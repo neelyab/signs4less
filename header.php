@@ -33,8 +33,8 @@
                                 <div class="bar3"></div>
                             </div>
                         </button>
-                        <?php wp_nav_menu(array('theme_location' => 'wp_boiler_main_menu', 'depth' => 2)); ?>
-                        <button id="quote-button">Request A Quote</button>
+                        <?php wp_nav_menu(array('theme_location' => 'mn_signs_main_menu', 'depth' => 2)); ?>
+                        <a href="/request-a-quote"><button id="quote-button">Request A Quote</button></a>
                     </nav>
                 </div>
             </section>

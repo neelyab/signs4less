@@ -1,4 +1,4 @@
-# WP Boiler Wordpress Theme
+# MN Signs Wordpress Theme
 Wordpress blog theme with customizable homepage.
 
 [Demo Site](http://gardening-oasis.amandacodes.com/)

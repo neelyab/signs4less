@@ -6,10 +6,10 @@
             <?php endif; ?>
         <h1><?php the_title(); ?></h1>
         <div class="meta-info">
-            <p><?php esc_html_e('Posted ', 'wp-boiler') ?>  <?php echo esc_html(get_the_date()); ?></p>
-            <p><?php esc_html_e('By ', 'wp-boiler'); the_author_posts_link(); ?></p>
+            <p><?php esc_html_e('Posted ', 'mn-signs') ?>  <?php echo esc_html(get_the_date()); ?></p>
+            <p><?php esc_html_e('By ', 'mn-signs'); the_author_posts_link(); ?></p>
             <!-- <?php if( has_tag()): ?>
-                <p><?php esc_html_e('Tags', 'wp-boiler') ?> : <?php the_tags( '', ', '); ?></p>
+                <p><?php esc_html_e('Tags', 'mn-signs') ?> : <?php the_tags( '', ', '); ?></p>
             <?php endif; ?>     -->
         </div>
     </header>
