@@ -2,7 +2,7 @@
 <div id="content" class="site-content">
     <div id="primary" class="content-area">
         <section class="services">
-            <div class="info-box">
+            <div class="info-box fade-in">
                 <span><?php esc_html_e('We care about', 'mn-signs') ?></span>
                 <p><span id="emphasis"><?php esc_html_e('your job.', 'mn-signs') ?></span></p>
                 <p><?php esc_html_e('Friendly and attentive service with over 30 years of experience.', 'mn-signs') ?></p>
@@ -55,7 +55,7 @@
                     </div>
         </section>
         <div class="gradient-top"></div>
-        <section class="about-us">
+        <section class="about-us tag">
             <?php $about_title = get_theme_mod('set_about_title', 'Please enter a title');
             $about_subtitle = get_theme_mod('set_about_subtitle', 'Please enter a subtitle');
             $about_paragraph = get_theme_mod('set_about_paragraph', 'Please enter a paragraph'); ?>

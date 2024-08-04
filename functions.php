@@ -8,6 +8,7 @@ function mn_signs_load_scripts()
     wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap', array(), null);
     wp_enqueue_script('dropdown', get_template_directory_uri() . '/js/dropdown.js', array(), '1.0', true);
     wp_enqueue_script('image-carousel', get_template_directory_uri() . '/js/image-carousel.js', array(), '1.0', true);
+    wp_enqueue_script('animations', get_template_directory_uri() . '/js/animations.js', array(), '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'mn_signs_load_scripts');
 
@@ -91,7 +92,7 @@ function mn_signs_sidebars()
     );
 
     // sliding images
-    for($x = 1; $x < 9; $x++) {
+    for ($x = 1; $x < 9; $x++) {
         $name = 'Image ' . (string)$x;
         $image_id = 'images-' . (string)$x;
 
@@ -107,9 +108,6 @@ function mn_signs_sidebars()
             )
         );
     }
-
-
-
 }
 
 if (!function_exists('wp_body_open')) {
