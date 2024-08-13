@@ -25,8 +25,8 @@
                     ?>
                 </div>
                 <div class="container">
-                    <nav class="main-menu">
-                        <button class="check-button">
+                    <nav class="main-menu" role="navigation">
+                        <button class="hamburger-menu" role="navigation" aria-label="main menu" aria-expanded="false">
                             <div class="menu-icon">
                                 <div class="bar1"></div>
                                 <div class="bar2"></div>
@@ -34,7 +34,7 @@
                             </div>
                         </button>
                         <?php wp_nav_menu(array('theme_location' => 'mn_signs_main_menu', 'depth' => 2)); ?>
-                        <a href="/request-a-quote"><button id="quote-button">Request A Quote</button></a>
+                        <a href="/request-quote"><button id="quote-button">Request A Quote</button></a>
                     </nav>
                 </div>
             </section>

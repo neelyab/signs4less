@@ -434,7 +434,7 @@ p {
   line-height: 1.7rem;
 }
 a {
-  color: var(--mn-signs-gray1);
+  color: var(--mn-signs-gray2);
   text-decoration: none;
 }
 a:hover,
@@ -487,7 +487,7 @@ img {
 /************** HOME PAGE *****************/
 
 .logo {
-  max-width: 200px;
+  max-width: 150px;
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -590,7 +590,7 @@ img {
   cursor: pointer;
 }
 .menu-icon,
-.check-button {
+.hamburger-menu {
   cursor: pointer;
   display: none;
 }
@@ -606,10 +606,10 @@ img {
 }
 @media (max-width: 767px) {
   .menu-icon,
-  .check-button {
+  .hamburger-menu {
     display: block;
   }
-  .check-button {
+  .hamburger-menu {
     border: none;
     background: transparent;
     height: 55px;
@@ -670,6 +670,9 @@ img {
 @media (max-width: 400px) {
   #quote-button {
     font-size: 0.8rem;
+  }
+  .logo {
+    max-width: 100px;
   }
 }
 
@@ -1084,7 +1087,7 @@ p {
 .reviews {
   display: flex;
   flex-wrap: row wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin: 0 auto;
   max-width: 90%;
   padding: 3rem;
@@ -1099,6 +1102,8 @@ p {
   background-color: white;
   border-radius: 10px;
   padding: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   margin-bottom: 1rem;
   filter: drop-shadow(7px 10px 2px #609aff15);
 }
@@ -1128,6 +1133,7 @@ p {
   }
   .reviews {
     flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -1144,6 +1150,7 @@ p {
 .home .home-blog h2 {
   text-align: center;
   position: relative;
+  margin-bottom: 2rem;
 }
 .home .home-blog h2::after {
   content: "";
@@ -1172,13 +1179,21 @@ p {
 .home .home-blog .meta-info p {
   font-weight: bold;
   margin-bottom: 0;
+  display: block;
 }
 .home .home-blog .meta-info p:last-child {
   margin-top: 5px;
+  border-bottom: 1px solid black; 
+  padding-bottom: 5px;
+  font-style: italic;
+}
+.home .home-blog .meta-info p:first-child  {
+  margin: 0 auto;
+  text-align: center;
 }
 .home .home-blog span,
 .home .home-blog span a {
-  color: var(--mn-signs-gray1);
+  color: var(--mn-signs-gray2);
   font-weight: normal;
   text-decoration: none;
   margin: 0 2px 0 0;
@@ -1341,7 +1356,6 @@ footer .container .row {
 .meta-info p {
   margin: 0;
   display: inline;
-  padding-right: 40px;
 }
 .wp-post-image {
   float: left;

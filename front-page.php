@@ -6,7 +6,7 @@
                 <span><?php esc_html_e('We care about', 'mn-signs') ?></span>
                 <p><span id="emphasis"><?php esc_html_e('your job.', 'mn-signs') ?></span></p>
                 <p><?php esc_html_e('Friendly and attentive service with over 30 years of experience.', 'mn-signs') ?></p>
-                <a href="/services"><button><?php esc_html_e('Learn About Our Services', 'mn-signs') ?></button></a>
+                <a href="/products"><button><?php esc_html_e('Learn About Our Services', 'mn-signs') ?></button></a>
             </div>
             <div id="carousel-container">
                 <div id="slider-wrapper" class="slider-wrapper">
@@ -74,71 +74,71 @@
                         dynamic_sidebar('images-1');
                     }
                     ?></div>
-                <div class="item item2"><img src="" />
+                <div class="item item2">
                     <?php
                     if (is_active_sidebar('images-2')) {
                         dynamic_sidebar('images-2');
                     }
                     ?></div>
-                <div class="item item3"><img src="" />
+                <div class="item item3">
                     <?php
                     if (is_active_sidebar('images-3')) {
                         dynamic_sidebar('images-3');
                     }
                     ?></div>
-                <div class="item item4"><img src="" />
+                <div class="item item4">
                     <?php
                     if (is_active_sidebar('images-4')) {
                         dynamic_sidebar('images-4');
                     }
                     ?></div>
-                <div class="item item5"><img src="" />
+                <div class="item item5">
                     <?php
                     if (is_active_sidebar('images-5')) {
                         dynamic_sidebar('images-5');
                     }
                     ?></div>
-                <div class="item item6"><img src="" />
+                <div class="item item6">
                     <?php
                     if (is_active_sidebar('images-6')) {
                         dynamic_sidebar('images-6');
                     }
                     ?></div>
-                <div class="item item7"><img src="" />
+                <div class="item item7">
                     <?php
                     if (is_active_sidebar('images-7')) {
                         dynamic_sidebar('images-7');
                     }
                     ?></div>
-                <div class="item item8"><img src="" />
+                <div class="item item8">
                     <?php
                     if (is_active_sidebar('images-8')) {
                         dynamic_sidebar('images-8');
                     }
                     ?></div>
             </div>
-            <a href="/services"><button><?php esc_html_e('Browse Products and Services', 'mn-signs') ?></button></a>
+            <a href="/products"><button><?php esc_html_e('Browse Products and Services', 'mn-signs') ?></button></a>
         </section>
         <section class="reviews-container">
             <h2>What customers are saying...</h2>
             <div class="reviews">
                 <div class="review-card">
-                    <p>Laura</p>
-                    <p>★ ★ ★ ★ ★</p>
+                    <p><?php esc_html_e("Laura", "mn-signs") ?></p>
+                    <p><?php esc_html_e("★ ★ ★ ★ ★", "mn-signs") ?></p>
 
-                    <p>Mike and Tony are very friendly and easy to work with. They are quick to respond and answer any questions and concerns you have especially when it comes to big, large-scale projects. If there's a mistake they are quick to fix. They really prioritize customer satisfaction. All in all they're super reliable and I'd recommend them to anyone who has any signage needs in the area. Thanks guys!</p>
+                    <p><?php esc_html_e("Mike and Tony are very friendly and easy to work with. They are quick to respond and answer any questions and concerns you have especially when it comes to big, large-scale projects. If theres a mistake they are quick to fix. They really prioritize customer satisfaction. All in all they're super reliable and I'd recommend them to anyone who has any signage needs in the area. Thanks guys!", "mn-signs") ?></p>
                 </div>
                 <div class="review-card">
-                    <p>Dale</p>
-                    <p>★ ★ ★ ★ ★</p>
+                    <p><?php esc_html_e("Dale", "mn-signs") ?></p>
+                    <p><?php esc_html_e("★ ★ ★ ★ ★", "mn-signs") ?></p>
 
-                    <p>I ordered 18 yard signs for businesses sponsoring holes for our Young Life Golf Tournament. Mike and Tony did an outstanding job of taking my order, assisting with the design of the signs, and delivered them ahead of the schedule we had agreed upon. They were professional and very friendly in all aspects of my interaction with them.</p>
+                    <p><?php esc_html_e("I ordered 18 yard signs for businesses sponsoring holes for our Young Life Golf Tournament. Mike and Tony did an outstanding job of taking my order, assisting with the design of the signs, and delivered them ahead of the schedule we had agreed upon. They were professional and very friendly in all aspects of my interaction with them.", "mn-signs") ?></p>
                 </div>
                 <div class="review-card">
-                    <p>Peter</p>
-                    <p>★ ★ ★ ★ ★</p>
+                    <p><?php esc_html_e("Peter", "mn-signs") ?></p>
+                    <p><?php esc_html_e("★ ★ ★ ★ ★", "mn-signs") ?></p>
 
-                    <p>I put a car wrap on for my business Fredericksburg Window Decor last week. I drove away after picking up the vehicle and 10 minutes later a person rolled down the window to ask me for an appointment. All week long people and customers have been commenting on how nice the design and wrap looked. Money well spent and very professional looking! Highly recommend Mike and his team!</p>
+                    <p><?php esc_html_e("I put a car wrap on for my business Fredericksburg Window Decor last week. I drove away after picking up the vehicle and 10 minutes later a person rolled down the window to ask me for an appointment. All week long people and customers have been commenting on how nice the design and wrap looked. Money well spent and very professional looking! Highly recommend Mike and his team!", "mn-signs") ?></p>
                 </div>
             </div>
         </section>
