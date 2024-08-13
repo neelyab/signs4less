@@ -3,7 +3,6 @@ addEventListener("scroll", (event) => {
   var pageBottom = pageTop + window.innerHeight;
   var tags = document.querySelectorAll(".tag");
 
-
   for (var i = 0; i < tags.length; i++) {
     var tag = tags[i];
     if (tag.offsetTop < pageBottom) {
