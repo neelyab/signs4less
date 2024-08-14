@@ -60,7 +60,7 @@
             $about_subtitle = get_theme_mod('set_about_subtitle', 'Please enter a subtitle');
             $about_paragraph = get_theme_mod('set_about_paragraph', 'Please enter a paragraph'); ?>
             <div class="about-info">
-                <h2><?php echo esc_html($about_title); ?></h2>
+                <h2 id="about-info-heading"><?php echo esc_html($about_title); ?></h2>
                 <p id="about-info-subtitle"><?php echo nl2br(esc_html($about_subtitle)); ?></p>
                 <p id="about-info-paragraph"><?php echo nl2br(esc_html($about_paragraph)); ?></p>
             </div>
